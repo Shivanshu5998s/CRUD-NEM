@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#tasks-container {
+  margin-bottom: 20px;
+}
+
+#tasks-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#tasks-container li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#tasks-container li label {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+#tasks-container li.completed label {
+  text-decoration: line-through;
+}
+
+#add-task-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#add-task-form label {
+  margin-right: 10px;
+}
+
+#add-task-form input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+#add-task-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
